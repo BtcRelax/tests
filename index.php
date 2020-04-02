@@ -21,6 +21,23 @@
 			else{
 				echo "Fail";
 			}
+			echo "<br>Try init RE: ";
+			$vRE=\BtcRelax\Core::createRE();
+			if($vRE instanceof \BtcRelax\RE){
+				echo "Ok";
+			}
+			else{
+				echo "Fail";
+			}
+			echo "<br>Try init PM: ";
+			$vPM=\BtcRelax\Core::createPM();
+			if($vPM instanceof \BtcRelax\PM){
+				echo "Ok";
+			}
+			else{
+				echo "Fail";
+			}
+
 		}
 	}
 	catch(Exception$e){
