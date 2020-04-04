@@ -8,7 +8,7 @@
 			echo "<br>Try init AM: ";
 			$vAM=\BtcRelax\Core::createAM();
 			if($vAM instanceof \BtcRelax\AM){
-				echo "Ok";
+				echo "Ok. Can <a href=\"vendor/btcrelax/services-api/scripts/login_as.php\">login as</a>";
 			}
 			else{
 				echo "Fail";
