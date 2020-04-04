@@ -2,16 +2,18 @@
     "name": "btcrelax/tests",
     "description": "Test scripts for main functionality",
     "type": "library",
-    "require": {
-        "phpunit/phpunit": "^9",
-        "btcrelax/services-api": "*.*"
-       
-    },
+    "homepage": "https://github.com/BtcRelax/tests",
+	"license": "Unlicense",
     "authors": [
         {
             "name": "god Jah",
             "email": "godjah@bitganj.website"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^9",
+        "btcrelax/services-api": "*.*"
+       
+    }
 }
